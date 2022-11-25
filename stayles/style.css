@@ -28,12 +28,26 @@ html {
 
 body {
   background-color: var(--main-color);
-  height: 200vh;
 }
 
+section{
+    padding: 3.5rem 7%;
+}
 /*! header start */
 .header .logo img {
   height: 10rem;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--black-color);
+    cursor: pointer;
+
 }
 
 .header {
@@ -67,8 +81,49 @@ body {
     font-size: 2.5rem;
     margin-left: 2rem;
     background-color: transparent;
-
-
 }
 
 /*! header end */
+
+/*! home start */
+ .home {
+    min-height: 100vh;
+    background: url(../images/home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -23.1rem;
+    display: flex;
+    align-items: center;
+    
+ }
+ .home .content{
+    max-width: 60rem;
+        
+ }
+
+ .home .content h3{
+    font-size: 6rem;
+    color: #fff;
+ }
+
+ .home .content p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    padding: 1rem 0;
+    color: #ccc;
+ }
+
+ .home .contentp{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.8;
+    
+
+ }
+
+/*! home end */
+
+/*!54.19dkk */
+
+
